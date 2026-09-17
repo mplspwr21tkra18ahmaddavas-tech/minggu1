@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>IF ELSE</title>
+</head>
+<body>
+  <script> 
+ // var nilai=90;
+  if (nilai>=75)
+  document.write("selamat,anda lulus!<br>");
+  else 
+  document.write("maaf,anda belum lulus.<br>");
+  
+ var nilai = 60;
+  if (nilai >=90){
+    document.write("predikat A<br>");
+  } else if (nilai>=80) {
+    document.write("predikat B<br>");
+  }else if (nilai >=70) {
+    document.write("predikat C<br>");
+  }else if (nilai >=60) {
+    document.write("predikat D<br>")
+  }
+  
+  var umur=18;
+  var punyaSIM=false;
+  if (umur>=17){
+    if (punyaSIM==true){
+      document.write("anda boleh mengemudi.<br>");
+    }else{
+      document.write("anda sudah cukup umur,tapi belum punya SIM<br>");
+    }
+  }else{
+    document.write("anda belum cukup umur untuk mengemudi.<br>")
+  }
+  
+  var member=false;
+  var totalbelanja=250000;
+  if(member && totalbelanja>=200000){
+    document.write("anda mendapatkan diskon 20%<br>");
+  }else if (totalbelanja>=200000){
+    document.write("anda mendapatkan diskon 10%<br>");
+  }else {
+    document.write("belanja anda belum memenuhi syarat diskon<br>");
+  }
+  </script>
+</body>
+</html>
